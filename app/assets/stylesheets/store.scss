@@ -17,7 +17,7 @@
     min-height: 100px;
 
     img {
-      
+
       margin-right: 5px;
       margin-bottom: 5px;
       position: absolute;
@@ -38,7 +38,10 @@
     .price {
       color: #44a;
       font-weight: bold;
-      margin-rigght: 3em;
+      margin-right: 3em;
+    }
+    form,div {
+      display: inline;
     }
   }
 }
