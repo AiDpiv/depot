@@ -11,17 +11,16 @@
 
   <body class='<%= controller.controller_name %>'>
     <div id="banner">
-      <%= image_tag 'test.jpg', alt: "The Pragmatic Bookshelf", size: "80x80" %>
+      <%= image_tag 'test.jpg', alt: "The Pragmatic Bookshelf",
+        size: "80x80" %>
       <span class='title'><%= @page_title %>  </span>
     </div>
     <div id="columns">
 
       <div id="side">
-        <div id="cart">
-          <% if @cart %>
-            <%= render @cart %>
-          <% end %>
-        </div>
+            <% if @cart %>
+              <%= render @cart %>
+            <% end %>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Questions</a></li>
